@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container{
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgb(233, 231, 236), rgb(229, 84, 84));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 60px;
+}
+
+.container center{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgb(160 87 87 / 74%);
+    padding: 69px;
+    width: 600px;
+    padding-top: 86px;
+}
+
+.container .Go-Back-btn{
+    width: 100%;
+    background: linear-gradient(45deg, rgb(233, 231, 236), rgb(229, 84, 84));
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.container .Go-Back-btn:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}

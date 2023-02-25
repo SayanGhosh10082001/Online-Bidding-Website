@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Champ11</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="/assets/images/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h2 class="title"> <center>INDIA</center> </h2>
+          <p class="text">
+            <h3><center>Player's List</center></h3>
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> ROHIT SHARMA
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> KL RAHUL
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> VIRAT KOHLI
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> SURYAKUMAR YADAV
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> HARDIK PANDYA
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> DINESH KARTIK
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> HARSHAL PATEL
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> BHUBNESHWAR KUMAR
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> ARSHADEEP SINGH
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> MOHAMMED SHAMI
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> YUZVENDRA CHAHAL
+              </h3>
+            </div>
+
+           
+          </div>
+
+        
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h1 class="title"><center>PAKISTAN</center> </h1>
+            <p class="text">
+              <h3><center>Player's List</center></h3>
+             </p>
+             <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> S.MASOOD
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> H.ALI
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> S.KHAN
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> I.AHAMED
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> K.SHAH
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> A.ALI
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> M.NAWAZ
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> M.WASIM
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> N.SHAH
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> H.RAUF
+              </h3>
+            </div>
+            <div class="information">
+              <h3>
+                <input type="checkbox" class="Details"> MD.HASNAIN
+              </h3>
+            </div>
+            <div class="social-media">
+              <h3 input type="submit" value="submit" class="submit-btn"><a href="/pages/Project.html" style="text-decoration: none;">P A Y</a></h3>
+             
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const inputs = document.querySelectorAll(".input");
+
+function focusFunc() {
+  let parent = this.parentNode;
+  parent.classList.add("focus");
+}
+
+function blurFunc() {
+  let parent = this.parentNode;
+  if (this.value == "") {
+    parent.classList.remove("focus");
+  }
+}
+
+inputs.forEach((input) => {
+  input.addEventListener("focus", focusFunc);
+  input.addEventListener("blur", blurFunc);
+});
+
+    </script>
+  </body>
+</html>
